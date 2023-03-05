@@ -93,8 +93,8 @@ public class MainToysPrank {
            }
 
 
-           if (toysetmap.size() == 0) {
-               System.out.println("Выходим из розыгрыша , т.к. список подарков пуст");
+           if (toysetmap.size() < 3) {
+               System.out.println("Выходим из розыгрыша , т.к.  подарков слишком мало");
                b = false;
            }
            else
